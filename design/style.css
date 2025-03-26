@@ -160,6 +160,11 @@ tr:last-child td {
   border-bottom: none;
 }
 
+.recipe-nutrition tr td:nth-child(2) {
+  color: var(--brown800);
+  font-weight: 700;
+}
+
 @media screen and (max-width: 850px) {
   .recipe-cart {
     width: 80%;
